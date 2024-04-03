@@ -1,0 +1,32 @@
+Hey yall, im back!
+This is my idea for an explorer game, I plan to name it aloftballoon, after my gamer tag.
+
+This game is styled after 1980 text-based explorer games, with one key diffrence: anyone can create thier own "map" which allows anyone to build a world full of adventures, and share that world with anyone else. Worlds will consist of many diffrent towns, routes, NPCs, weapons, and enemies, all of which can be made by the maker of the world, and the current state of tthe game will also be included in the world file (allowing for saves). The world file will be completely text-based, and will read in by the game program to allow for play, and will be modified as by the program as the game progresses. 
+
+I have come up with the primary structure of the game, which will be designed in c++. This structure is intended so that the game can easily be implemented with c++ and all interactions will be text based through the command line (just like in the 1980s!).
+
+The current structure:
+Each "world" will consist of:
+-player info: player name, current hp, max hp, current money, current town, bag, XP
+-player bag: all items(items is a class), if any
+-list of towns: all town names and thier id, no _ allowed 
+-list of routes: all routes that link towns together. will be of the form town1_town2
+-list of npcs: list of all npcs(class) in each town, and what they do, and dialoge
+-list of monsters along routes, and what they drop
+-then, extra info (num of towns)
+NOTE: undersocres"_" and commas "," are not allowed anywhere in the names to allow for file reading
+
+it will be easy to implement all monsters, npcs, and towns as classes, where the parameters will be input in from the text read in from the file. this is possible if the text file is oredered a specific way every single time, the structure of which i will state below, as this will allow for us to know where everything is exactly and allow us to read the file in to initiialize the current state of the game.
+To allow for the structure to be the same every time, we will also write a program that allows a user to create a world without knowing the exact syntax strucure, as this will allow anyone to easily create a new world by allowing the program to create a file with the required structure.
+
+We may allow for the ability to connect worlds together from their central towns. allows xp to be carried, allowing for harder worlds.
+:)
+
+Structre is below:
+...I need to figure this part out so that its easy to implement the program, gimme some time. I plan its going to look somethin like this:
+  Townname_ID_Townname_ID...
+  NPC_TOWNID_ID_dialoge_NPC_TOWNID_ID_dialoge_NPC_TOWNID_ID_dialoge...
+  and so on. everything sequential.
+
+NOTE: undersocres"_" and commas "," are not allowed anywhere in the names to allow for file reading
+
