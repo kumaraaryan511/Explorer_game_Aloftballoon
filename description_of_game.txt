@@ -1,4 +1,3 @@
-Hey yall, im back!
 This is my idea for an explorer game, I plan to name it aloftballoon, after my gamer tag.
 
 This game is styled after 1980 text-based explorer games, with one key diffrence: anyone can create thier own "map" which allows anyone to build a world full of adventures, and share that world with anyone else. Worlds will consist of many diffrent towns, routes, NPCs, weapons, and enemies, all of which can be made by the maker of the world, and the current state of tthe game will also be included in the world file (allowing for saves). The world file will be completely text-based, and will read in by the game program to allow for play, and will be modified as by the program as the game progresses. 
