@@ -1,0 +1,7 @@
+badami
+almond_farm
+0 lighty 1 mighty 2 frighty 3 lasky 
+0 motiya Hum_jha_khada_hote_hai_line_wahi_sai_shuru_hoti_hai 0 
+0 (0,2) 1 (2,0) 2 (1,3) 3 (3,1) 4 (1,2) 5 (2,1) 
+0 dogstree 500 300 (1,) 
+0 gold 1 0 500 300 50 
